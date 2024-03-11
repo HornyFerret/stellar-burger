@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import styles from './modal.module.css';
-import closeIcon from '../images/closeIcon.svg'
+import closeIcon from '../../images/closeIcon.svg'
 
 
 

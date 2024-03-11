@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './orderDetails.module.css';
-import done from '../images/done.svg'
+import done from '../../images/done.svg'
 
 export default class orderDetails extends React.Component {
     render () {

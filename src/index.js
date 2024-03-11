@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import AppHeader from "./components/app/app";
+import AppHeader from "./components/appHeader/appHeader";
 import BurgerIngredients from './components/burgerIngredients/burgerIngredients';
 import BurgerConstruction from './components/burgerConstructor/burgerConstructor'
 import reportWebVitals from "./reportWebVitals";
 import { data } from "./utils/data";
-import Modal from './components/modal/modal';
+
 
 ReactDOM.render(
   <React.StrictMode>

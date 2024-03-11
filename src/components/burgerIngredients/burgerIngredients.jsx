@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Tab,CurrencyIcon } from '@ya.praktikum/react-developer-burger-ui-components'
 import styles from './burgerIngredients.module.css';
 import ModalOverlay from '../modalOverlay/modalOverlay';
-import IngredientDetails from '../ingredientDetails/ingredientDetails'
+import IngredientDetails from '../ingredientDetails/ingredientDetails';
 
 
 export default class BurgerIngredients extends React.Component {
@@ -30,8 +30,8 @@ export default class BurgerIngredients extends React.Component {
 
   handleOpenModal(evt) {
     this.setState({ visible: true });
-    let fiuck = this.props.data.find((elem) => elem._id === evt.target.parentElement.id);
-    this.setState({arr: fiuck});
+    let itArr = this.props.data.find((elem) => elem._id === evt.target.parentElement.id);
+    this.setState({arr: itArr});
   }
 
   handleCloseModal() {
