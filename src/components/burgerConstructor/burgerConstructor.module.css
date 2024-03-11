@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 570px;
+}
+
+.drag{
+    display: flex;
+    flex-direction: row;
+}
+
+.scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 912px;
+}
