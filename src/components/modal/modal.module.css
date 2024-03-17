@@ -1,0 +1,32 @@
+.closeButton {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding: 0;
+  background-color: rgba(0,0,0,0);
+  cursor: pointer;
+}
+
+.modalWindow {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* left: 10%;
+  right: 10%; */
+  width: 720px;
+  background-color: rgba(28, 28, 33, 1);
+  border-radius: 10%;
+}
+
+.modal{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+
