@@ -1,20 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import AppHeader from "./components/appHeader/appHeader";
-import BurgerIngredients from './components/burgerIngredients/burgerIngredients';
-import BurgerConstruction from './components/burgerConstructor/burgerConstructor'
+import AppHeader from "./components/AppHeader/AppHeader";
 import reportWebVitals from "./reportWebVitals";
-import { data } from "./utils/data";
+import App from './components/App/App'
 
+// import { compose, createStore, applyMiddleware } from 'redux';
+// const enhancer = composeEnhancers(applyMiddleware(thunk));
+
+// const store = createStore(rootReducer, enhancer);
+// const composeEnhancers =
+//   typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
+//     ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
+//     : compose;
 
 ReactDOM.render(
   <React.StrictMode>
     <AppHeader />
-    <div className="list">
-    <BurgerIngredients data ={data}/>
-    <BurgerConstruction/>
-    </div>
+    <App/>
   </React.StrictMode>,
   document.getElementById("root")
 );

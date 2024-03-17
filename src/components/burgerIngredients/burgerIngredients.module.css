@@ -1,17 +1,32 @@
 .ingredient {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 272px;
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    color: white;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 272px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
 .scroll {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    max-height: 912px;
-    
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 912px;
+}
+
+.flex{
+  display: flex;
+}
+.section{
+  max-width: 600px;
+}
+
+.ingridients{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name{
+  text-align: center;
 }

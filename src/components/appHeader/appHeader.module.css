@@ -3,7 +3,7 @@
   justify-content: space-around;
   flex-wrap: nowrap;
 }
-
-
-
+.headerList{
+  display: flex;
+}
 /* border:red solid 1px; */
