@@ -5,8 +5,8 @@ import {
   CurrencyIcon,
 } from "@ya.praktikum/react-developer-burger-ui-components";
 import styles from "./BurgerIngredients.module.css";
-import Modal from "../Modal/Modal";
-import IngredientDetails from "../IngredientDetails/IngredientDetails";
+import Modal from "../modal/modal";
+import IngredientDetails from "../ingredientDetails/ingredientDetails";
 
 export default function BurgerIngredients({ data }) {
   const [visible, setVisible] = useState(false);

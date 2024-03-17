@@ -1,7 +1,7 @@
 import {useEffect,useState} from "react";
 import styles from "./App.module.css";
-import BurgerIngredients from "../BurgerIngredients/BurgerIngredients";
-import BurgerConstruction from "../BurgerConstructor/burgerConstructor";
+import BurgerIngredients from "../burgerIngredients/burgerIngredients";
+import BurgerConstruction from "../burgerConstructor/burgerConstructor";
 // import { data } from "../../utils/data";
 import { compose, createStore, applyMiddleware } from 'redux';
 // const enhancer = composeEnhancers(applyMiddleware(thunk));

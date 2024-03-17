@@ -6,8 +6,8 @@ import {
   DragIcon,
 } from "@ya.praktikum/react-developer-burger-ui-components";
 import styles from "./burgerConstructor.module.css";
-import Modal from "../Modal/Modal";
-import OrderDetails from "../OrderDetails/OrderDetails";
+import Modal from "../modal/modal";
+import OrderDetails from "../orderDetails/orderDetails";
 
 export default function BurgerConstruction({ data }) {
   const [visible, setVisible] = useState(false);
